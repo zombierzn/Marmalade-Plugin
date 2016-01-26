@@ -1,0 +1,38 @@
+#!/usr/bin/env mkb
+
+files
+{
+    publisher_sample_marmalade.cpp
+}
+
+subprojects
+{
+    iwutil
+    iwnui
+}
+
+assets
+{
+    (data)
+    iwui_style/fonts/FreeMono.ttf
+    iwui_style/fonts/FreeSans.ttf
+    iwui_style/fonts/FreeSerif.ttf
+	berlinSky.jpg
+	londonSky.jpg
+	sfSky.jpg
+	berlinSkyDisabled.jpg
+	londonSkyDisabled.jpg
+	sfSkyDisabled.jpg
+
+    (data-ram/data-gles1, data)
+    iwui_style/iwui_style.group.bin
+}
+
+subproject ../VungleSDK/VungleSDK
+
+#Hub deployment options, please do not add anything below this line
+subproject
+{
+    (.)
+    publisher_sample_marmalade_deployment
+}
