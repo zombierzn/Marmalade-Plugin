@@ -28,7 +28,7 @@ assets
     iwui_style/iwui_style.group.bin
 }
 
-subproject ../VungleSDK/VungleSDK
+subproject ../VungleMarmaladePlugin/VungleSDK
 
 #Hub deployment options, please do not add anything below this line
 subproject
