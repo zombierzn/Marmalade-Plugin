@@ -9,8 +9,8 @@ Once you've created an account you can follow our [Getting Started for Marmalade
 * Marmalade 8.0.0 and higher.
 
 ## Release Notes
-### 1.0.0
-* Initial release
+### VERSION 1.1.0
+* Update Android VungleSDK to v3.3.5
 
 ## License
 The Vungle Marmalade-Plugin is available under a commercial license. See the LICENSE file for more info.
