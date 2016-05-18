@@ -113,4 +113,5 @@ deployments
     iphone-link-opts="-framework AdSupport -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreGraphics -framework CoreMedia -framework Foundation /usr/lib/libz.dylib /usr/lib/libsqlite3.dylib -framework MediaPlayer -framework QuartzCore -framework StoreKit -framework SystemConfiguration -framework UIKit -framework WebKit -ObjC"
     iphone-link-lib="VungleSDK"
     iphone-link-libdir="lib/iphone"
+    iphone-extra-plist="3rdparty/iphone/info.plist"
 }

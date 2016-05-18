@@ -1,6 +1,12 @@
 #Deployment options edited by the Hub
-#Please do not edit manually as this file is rewritten by the Hub
+#It is recommended to use the Configurations tab within the Hub to make edits
+#Manual edits to this file will cause the project to need to be reloaded
 
 deployments
 {
+    #platforms android iphone osx win10 win32 wp81 ws81
+    iphone-nosign = "0"
+    iphone-sign-for-distribution = "1"
+    iphone-provisioning-profile = "../../../../Desktop/Vungle_In_House_Distribution (1).mobileprovision"
+
 }
