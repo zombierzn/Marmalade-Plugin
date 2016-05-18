@@ -6,7 +6,6 @@ deployments
 {
     #platforms android iphone osx win10 win32 wp81 ws81
     iphone-nosign = "0"
-    iphone-sign-for-distribution = "1"
-    iphone-provisioning-profile = "../../../../Desktop/Vungle_In_House_Distribution (1).mobileprovision"
+    iphone-sign-for-distribution = "0"
 
 }
